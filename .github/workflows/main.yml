@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Closetgeekshow's Starred Projects
-        uses: closetgeekshow/ohmystars
+      - name: Awesome generator
+        uses: simonecorsi/mawesome@latest
         with:
           api-token: ${{ secrets.API_TOKEN }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
